@@ -1,5 +1,5 @@
 # MysqlBackup
-Jenoduchý PHP script pro zalohování databází spouštěný na Linuxu pomocí cronu.
+Jednoduchý PHP script pro zalohování databází spouštěný na Linuxu pomocí cronu.
 
 ## Návod na instalaci
 
