@@ -34,7 +34,7 @@ foreach($database as $key => $db)
         $filename = $db . "_" . date('y_m_d_h_i') . ".sql";
 
         // result
-        $result = exec("mysqldump " . $db . " --password=" . $pass . " --user=" . $user . " --single-transaction >" . $backup_path . $filena$
+        $result = exec("mysqldump " . $db . " --password=" . $pass . " --user=" . $user . " --single-transaction >" . $backup_path . $filename, $output);
 
 }
 
